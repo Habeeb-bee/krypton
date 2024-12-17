@@ -17,16 +17,16 @@ const Secured = () => {
   </div>
 
   {/* Text Section */}
-  <div className="text-container flex flex-col gap-6 w-full text-center laptop:w-1/2 laptop:text-left">
+  <div className="text-container flex flex-col gap-6 w-full text-center laptop:w-1/2 laptop:text-left laptop:items-start">
     <h2 className="text-4xl bg-hero-pattern  text-transparent bg-clip-text font-bold laptop:text-4xl">
     Secured by the Hedron.
     </h2>
     <p className="text-lg text-white laptop:text-xl">
     In return for securing the services on the Krypton Hub, transaction fees and staking rewards are distributed to HEDRON stakers.
     </p>
-    <div className="button-group flex flex-row justify-center items-center gap-4 laptop:flex-row laptop:items-start">
+    <div className="button-group flex flex-row justify-center items-center gap-4 laptop:flex-row ">
       <div className="F20  justify-center items-center py-[20px] px-[10px]  bg-community-btn w-[10em] h-auto pointer">
-    <div className="text">Start Staking</div>   
+    <div className="text text-center">Start Staking</div>   
           </div>
           <div className="F20 flex flex-row text-white justify-center items-center gap-[10px] py-[20px] px-[10px]  w-[10em] h-auto pointer">
     <div className="text">Learn more</div> 

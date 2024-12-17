@@ -4,7 +4,7 @@ import helix from './img/helix.svg'
 const Community = () => {
   return (
  
-    <div
+    <div id='learn'
     className="community G8690 relative mb-[7em] h-auto px-[4vw] flex flex-col w-full gap-[2em] animate-fade-in tablet:mt-[7em] 
       laptop:mt-[15em] laptop:flex-row laptop:items-center laptop:justify-between  "
   >
@@ -33,7 +33,7 @@ const Community = () => {
         <div className="btns flex flex-row gap-[20px] tablet:text-2xl">
           <div className="F20 bg-community-btn py-[15px] px-[40px] pointer">Learn</div>
           <div className="F20 flex flex-row gap-[10px] justify-center items-center  text-white items-start py-[15px] px-[25px] pointer">
-            Explore Tokens{" "}
+          <a href="https://chat.whatsapp.com/HnnuYN7tfwXE6fR6TF8f3A" >Explore Tokens</a>
             <img className="" src={left} alt="" />
           </div>
         </div>

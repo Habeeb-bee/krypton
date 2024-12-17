@@ -9,7 +9,7 @@ const Tech = () => {
       {/* Technology Section */}
       <div className="frame39 text-start flex flex-col gap-[1.5em]">
         <div className="text text-[#A5A5A5] text-sm">TECHNOLOGY</div>
-        <div className=" text-5xl bg-hero-pattern text-transparent bg-clip-text font-bold laptop:text-4xl">
+        <div className=" text-5xl bg-hero-pattern text-transparent bg-clip-text font-bold">
           The most trusted way to build value.
         </div>
         <div className="text-lg text-white laptop:text-xl">

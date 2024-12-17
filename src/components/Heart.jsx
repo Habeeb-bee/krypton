@@ -38,7 +38,7 @@ const cardsData = [
 
 const Heart = () => {
     return(
-        <div className="G8687 flex flex-col gap-[4em] h-auto w-full px-[4vw] relative mb-[7em] animate-fade-in" >
+        <div id="explore" className="G8687 flex flex-col gap-[4em] h-auto w-full px-[4vw] relative mb-[7em] animate-fade-in" >
             <div className="frame31 flex flex-col items-center gap-[1em]">
                 <div className="enter text-sm text-white text-center opacity-60">
                 ENTER THE KRYPTON HUB  
@@ -81,7 +81,7 @@ const Heart = () => {
     </div>
 
     <div className="F20 flex flex-row justify-center items-center gap-[10px] py-[20px] px-[10px]  bg-community-btn w-[10em] h-auto pointer">
-    <div className="text">Krypton Hub</div> 
+    <div className="text"><a href="https://chat.whatsapp.com/HnnuYN7tfwXE6fR6TF8f3A">Krypton Hub</a></div> 
             <img className=" " src={left} alt="" />
           </div>
           
