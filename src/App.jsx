@@ -18,7 +18,7 @@ import Footer from './Footer';
 function App() {
 
   return (
-    <>
+    <div className='overflow-x-hidden '>
    <Home></Home>
    <Community></Community>
    <Heart></Heart>
@@ -30,7 +30,7 @@ function App() {
    <Unsubscribe></Unsubscribe>
    <Footer></Footer>
 
-    </>
+    </div>
   )
 }
 
