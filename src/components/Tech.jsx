@@ -1,5 +1,4 @@
-import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"; // Correct import
 import cylinder from "./img/Cylinder.svg";
 import cylinder2 from "./img/Cylinder_2.svg";
 
@@ -90,16 +89,16 @@ const Tech = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="image-container absolute top-0 right-0 w-[70%] laptop:w-[100%] laptop:-top-[1em] laptop:-right-[4vw] -z-10"
+          className="image-container absolute top-0 right-0 w-[70%] laptop:w-[100%] laptop:-top-[1em] laptop:-right-[4vw] -z-10 overflow-hidden"
         >
-          <div className="cylinders relative h-auto object-cover">
+          <div className="cylinders relative w-full h-full">
             <img
-              className="absolute top-0 right-0 w-full h-auto"
+              className="absolute top-0 left-0 w-full h-full object-cover"
               src={cylinder2}
               alt="Background Cylinder 2"
             />
             <img
-              className="relative w-full h-auto opacity-80"
+              className="relative w-full h-full opacity-80 object-cover"
               src={cylinder}
               alt="Background Cylinder"
             />
