@@ -30,11 +30,13 @@ const cardsData = [
 
 const Network = () => {
   return (
-    <div className="network  w-full h-auto px-[4vw] flex flex-col items-center justify-center gap-[3em] laptop:flex-row mb-[7em] ">
-      <div className="future  text-4xl bg-hero-pattern text-transparent bg-clip-text font-bold laptop:text-4xl">
+    <div className="network  w-full h-auto px-[4vw] flex flex-col items-center justify-center gap-[3em] laptop:flex-col mb-[7em] ">
+      <div className="future  text-4xl bg-hero-pattern text-transparent bg-clip-text font-bold laptop:text-5xl">
         Join the network.
       </div>
+     <div className=" flex flex-col gap-[2em] laptop:flex-row " >
 
+     
       {cardsData.map((card) => (
         <div
           key={card.id}
@@ -56,6 +58,7 @@ const Network = () => {
                     
         </div>
       ))}
+      </div>
 
     </div>
   );

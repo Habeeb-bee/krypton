@@ -21,7 +21,7 @@ function Nav() {
         <div
           className={`transition-transform transform ${
             isOpen ? 'translate-x-0' : 'translate-x-full'
-          } fixed top-0 right-0 h-screen w-[60%] bg-[#141414]/70 backdrop-blur-md flex flex-col items-start gap-8 p-6 laptop:p-0 laptop:bg-transparent  laptop:static laptop:flex-row laptop:translate-x-0  laptop:h-auto laptop:items-center laptop:justify-between `}
+          } fixed top-0 right-0 h-screen w-[60%] bg-[#141414] backdrop-blur-md flex flex-col items-start gap-8 p-6 laptop:p-0 laptop:bg-transparent  laptop:static laptop:flex-row laptop:translate-x-0  laptop:h-auto laptop:items-center laptop:justify-between `}
         >
           <ul className="flex flex-col gap-6 laptop:flex-row laptop:gap-8">
             <li>
