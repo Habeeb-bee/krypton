@@ -19,13 +19,13 @@ const Secured = () => {
         <div className="hedrons relative w-[80%] h-auto laptop:w-[70%] object-cover">
         <motion.div
   className="absolute w-full h-full top-[1em] right-[1em] bg-[#8B90F8] blur-3xl opacity-60 rounded-full"
-  initial={{ opacity: 0.4 }} // Start fully transparent
-  animate={{ opacity: 1 }} // Animate to 60% opacity
+  initial={{ opacity: 0.4 }} 
+  animate={{ opacity: 1 }} 
   transition={{
-    duration: 1.5,        // Duration of one cycle
-    ease: "easeInOut",  // Smooth animation
-    repeat: Infinity,   // Repeat forever
-    repeatType: "reverse", // Reverse the animation on each cycle
+    duration: 1.5,       
+    ease: "easeInOut",  
+    repeat: Infinity,   
+    repeatType: "reverse", 
   }}
 />
           <img className="absolute top-0 left-0 w-full h-auto" src={hedron} alt="" />

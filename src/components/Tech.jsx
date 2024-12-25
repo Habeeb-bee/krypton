@@ -1,6 +1,6 @@
-import { motion } from "framer-motion"; // Correct import
-import cylinder from "./img/Cylinder.svg";
-import cylinder2 from "./img/Cylinder_2.svg";
+import { motion } from "motion/react";
+import cylinder from "./img/cylinder.svg";
+import cylinder2 from "./img/cylinder_2.svg";
 
 const Tech = () => {
   return (

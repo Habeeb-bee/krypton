@@ -1,6 +1,6 @@
 import hedron from "../img/icos.svg";
 import half from "../img/half.svg";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 
 const Hero = () => {
   return (

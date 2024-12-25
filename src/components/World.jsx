@@ -1,5 +1,4 @@
-import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import sphere from "./img/sphere.svg";
 import sphere2 from "./img/sphere_2.svg";
 

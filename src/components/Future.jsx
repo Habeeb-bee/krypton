@@ -1,5 +1,4 @@
-import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import left from "./img/left.svg";
 import locker from "./img/locker.svg";
 import yuan from "./img/yuan.svg";

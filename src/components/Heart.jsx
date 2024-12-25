@@ -1,7 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import Torus from './img/Thorus.svg';
-import Torus2 from './img/Thorus_02.svg';
+import { motion } from "motion/react";
+import Torus from './img/thorus.svg';
+import Torus2 from './img/thorus_02.svg';
 import eth from './img/eth.svg';
 import shield from './img/shield.svg';
 import chart from './img/chart.svg';
