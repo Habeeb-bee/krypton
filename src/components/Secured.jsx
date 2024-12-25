@@ -1,6 +1,6 @@
 import React from "react";
 import hedron from "./img/hedron.svg";
-import hedron2 from "./img/icosahedron.svg";
+import hedronII from "./img/icosahedron.svg";
 import left from "./img/left.svg";
 import { motion } from "motion/react";
 
@@ -29,7 +29,7 @@ const Secured = () => {
   }}
 />
           <img className="absolute top-0 left-0 w-full h-auto" src={hedron} alt="" />
-          <img className="relative w-full h-auto opacity-80" src={hedron2} alt="" />
+          <img className="relative w-full h-auto opacity-80" src={hedronII} alt="" />
         </div>
       </motion.div>
 
