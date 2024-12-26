@@ -1,8 +1,5 @@
 import { motion } from "motion/react";
-import left from "../../public/left.svg";
-import locker from "../../public/locker.svg";
-import yuan from "../../public/yuan.svg";
-import eth from "../../public/eth.svg";
+
 
 const Future = () => {
   return (
@@ -21,7 +18,7 @@ const Future = () => {
 
         <div className="G8657 flex flex-row text-white justify-start items-center gap-[10px] cursor-pointer">
           <div className="text text-white">Powerful features</div>
-          <img src={left} alt="Arrow Icon" />
+          <img src="public/left.svg" alt="Arrow Icon" />
         </div>
       </motion.div>
 
@@ -39,7 +36,7 @@ const Future = () => {
             INTERCHAIN ACCOUNTS
           </div>
           <div className="absolute w-1/2 h-1/4 top-1/4 -z-5 bg-[#fcf5ad40] blur-3xl opacity-60 rounded-full laptop:left-0 laptop:top-[35%]"></div>
-          <img className="laptop:w-[65%]" src={locker} alt="Locker Icon" />
+          <img className="laptop:w-[65%]" src="public/locker.svg" alt="Locker Icon" />
           <div className="text text-4xl bg-hero-pattern text-transparent bg-clip-text font-bold laptop:w-[65%] laptop:text-5xl">
             One secure account for all your digital assets.
           </div>
@@ -68,12 +65,12 @@ const Future = () => {
             <div className="absolute w-2/3 h-1/2 top-[3em] right-[1em] bg-[#fcf5ad40] blur-xl opacity-90 rounded-full laptop:right-[5em] laptop:w-[70%] laptop:top-[4.5em]"></div>
             <img
               className="absolute w-full -top-1/4 laptop:w-full laptop:right-[3.8em]"
-              src={eth}
+              src="public/eth.svg"
               alt="Ethereum Coin"
             />
             <img
               className="relative laptop:w-full laptop:right-[4em]"
-              src={yuan}
+              src="public/yuan.svg"
               alt="Yuan Coin"
             />
           </div>

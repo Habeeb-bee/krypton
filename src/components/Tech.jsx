@@ -1,6 +1,4 @@
 import { motion } from "motion/react";
-import cylinder from "../../public/cylinder.svg";
-import cylinder2 from "../../public/cylinder_2.svg";
 
 const Tech = () => {
   return (
@@ -94,12 +92,12 @@ const Tech = () => {
           <div className="cylinders relative w-full h-full">
             <img
               className="absolute top-0 left-0 w-full h-full object-cover"
-              src={cylinder2}
+              src="public/cylinder_2.svg"
               alt="Background Cylinder 2"
             />
             <img
               className="relative w-full h-full opacity-80 object-cover"
-              src={cylinder}
+              src="public/cylinder.svg"
               alt="Background Cylinder"
             />
           </div>

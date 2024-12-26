@@ -1,11 +1,4 @@
 import { motion } from "motion/react";
-import Torus from '../../public/thorus.svg';
-import Torus2 from '../../public/thorus_02.svg';
-import eth from '../../public/eth.svg';
-import shield from '../../public/shield.svg';
-import chart from '../../public/chart.svg';
-import star from '../../public/star.svg';
-import left from '../../public/left.svg';
 
 const cardsData = [
   {
@@ -13,28 +6,28 @@ const cardsData = [
     title: "Marketplace",
     description:
       "Set to operate a next-gen decentralized exchange, swapping digital assets from across the Interchain, with very low fees and instant transaction confirmation.",
-    image: eth,
+    image: "public/eth.svg",
   },
   {
     id: 2,
     title: "Security provider",
     description:
       "With the upcoming Interchain Security feature, HEDRON will soon be securing many chains, in exchange for additional staking rewards.",
-    image: shield,
+    image: "public/shield.svg",
   },
   {
     id: 3,
     title: "Router",
     description:
       "A core mission of the Hub – to connect chains by establishing IBC connections with compatible chains and operating decentralized bridges with chains like Ethereum and Bitcoin.",
-    image: chart,
+    image: "public/chart.svg",
   },
   {
     id: 4,
     title: "Custodian",
     description:
       "Located at the crossroads of the Interchain, the Hub is extremely secure, the best place to hold digital assets and manage accounts across many chains.",
-    image: star,
+    image: "public/star.svg",
   },
 ];
 
@@ -61,12 +54,12 @@ const Heart = () => {
         <div className="torus absolute -top-[4.5em] -z-10">
           <img
             className="absolute w-[30em] blur-[7px] opacity-70"
-            src={Torus2}
+            src="public/thorus_02.svg"
             alt="Torus Background"
           />
           <img
             className="w-[30em] blur-[17px] opacity-70"
-            src={Torus}
+            src="public/thorus.svg"
             alt="Torus Foreground"
           />
         </div>
@@ -107,7 +100,7 @@ const Heart = () => {
         <div className="text">
           <a href="https://chat.whatsapp.com/HnnuYN7tfwXE6fR6TF8f3A">Krypton Hub</a>
         </div>
-        <img src={left} alt="Arrow Icon" />
+        <img src="public/left.svg" alt="Arrow Icon" />
       </motion.div>
     </div>
   );

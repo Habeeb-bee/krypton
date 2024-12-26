@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import left from "../../../public/left.svg";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +45,7 @@ function Nav() {
           <div className="mt-6 laptop:mt-0">
           <div className="flex flex-row gap-[10px] justify-center items-center cursor-pointer  text-white text-2xl">
            <a href="https://chat.whatsapp.com/HnnuYN7tfwXE6fR6TF8f3A" >Explore Tokens</a>{" "}
-            <img className="" src={left} alt="" />
+            <img className="" src="public/left.svg" alt="" />
           </div>
         </div>
         </div>

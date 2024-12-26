@@ -1,6 +1,4 @@
 import { motion } from "motion/react";
-import left from '../../public/left.svg';
-import helix from '../../public/helix.svg';
 
 const Community = () => {
   return (
@@ -18,7 +16,7 @@ const Community = () => {
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="absolute top-[3em] -left-[3em] w-[10em] h-[17em] tablet:w-[15em] tablet:h-[20em]
           laptop:-left-[11em] laptop:top-[5em] laptop:w-[25em]"
-          src={helix}
+          src="public/helix.svg"
           alt="Decorative Helix"
         />
         <div className="FR27 flex flex-col items-start p-0 gap-[20px] tablet:gap-[30px] relative w-full">
@@ -74,7 +72,7 @@ const Community = () => {
               className="F20 flex flex-row gap-[10px] justify-center items-center text-white py-[15px] px-[25px] pointer cursor-pointer"
             >
               <a href="https://chat.whatsapp.com/HnnuYN7tfwXE6fR6TF8f3A">Explore Tokens</a>
-              <img src={left} alt="Arrow Icon" />
+              <img src="public/left.svg" alt="Arrow Icon" />
             </motion.div>
           </motion.div>
         </div>

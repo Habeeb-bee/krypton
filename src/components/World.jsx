@@ -1,6 +1,4 @@
 import { motion } from "motion/react";
-import sphere from "../../public/sphere.svg";
-import sphere2 from "../../public/sphere_2.svg";
 
 const cardsData = [
   {
@@ -67,8 +65,8 @@ const World = () => {
         {/* Decorative Image */}
         <div className="image-container absolute top-0 -left-[4vw] w-[50%] laptop:-left-[10vw] -z-10">
           <div className="cylinders relative h-auto object-cover">
-            <img className="absolute top-0 left-0 w-full h-auto" src={sphere2} alt="Background Sphere 2" />
-            <img className="relative w-full h-auto opacity-80" src={sphere} alt="Background Sphere" />
+            <img className="absolute top-0 left-0 w-full h-auto" src="public/sphere_2.svg" alt="Background Sphere 2" />
+            <img className="relative w-full h-auto opacity-80" src="public/sphere.svg" alt="Background Sphere" />
           </div>
         </div>
       </div>

@@ -1,6 +1,4 @@
-import square from "../../public/square.svg";
-import success from "../../public/success.svg";
-import people from "../../public/people.svg";
+
 
 
 const cardsData = [
@@ -9,21 +7,21 @@ const cardsData = [
       title: "CONNECT",
       head: "Connect chains",
       description: "Grow the economy of your chain by connecting to Cronos Hub services using IBC protocol.",
-      image: square,
+      image: "public/square.svg",
     },
     {
       id: 2,
       title: "INTEGRATE",
       head: "Provide services",
       description: "Get support to bring users to Cronos by providing services such as exchanges, wallets and more.",
-      image: success,
+      image: "public/success.svg",
     },
     {
       id: 3,
       title: "VALIDATE",
       head: "Validator level",
       description: "Join the ranks of trusted decentralized validator operators in the network and help secure the interchain. ",
-      image: people,
+      image: "public/people.svg",
     },
   ];
   
