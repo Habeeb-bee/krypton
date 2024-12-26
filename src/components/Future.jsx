@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
-import left from "./img/left.svg";
-import locker from "./img/locker.svg";
-import yuan from "./img/yuan.svg";
-import eth from "./img/eth.svg";
+import left from "../../public/left.svg";
+import locker from "../../public/locker.svg";
+import yuan from "../../public/yuan.svg";
+import eth from "../../public/eth.svg";
 
 const Future = () => {
   return (

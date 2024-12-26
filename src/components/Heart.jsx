@@ -1,11 +1,11 @@
 import { motion } from "motion/react";
-import Torus from './img/thorus.svg';
-import Torus2 from './img/thorus_02.svg';
-import eth from './img/eth.svg';
-import shield from './img/shield.svg';
-import chart from './img/chart.svg';
-import star from './img/star.svg';
-import left from './img/left.svg';
+import Torus from '../../public/thorus.svg';
+import Torus2 from '../../public/thorus_02.svg';
+import eth from '../../public/eth.svg';
+import shield from '../../public/shield.svg';
+import chart from '../../public/chart.svg';
+import star from '../../public/star.svg';
+import left from '../../public/left.svg';
 
 const cardsData = [
   {

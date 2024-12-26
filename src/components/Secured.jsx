@@ -1,7 +1,6 @@
-import React from "react";
-import hedron from "./img/hedron.svg";
-import hedronII from "./img/icosahedron.svg";
-import left from "./img/left.svg";
+import hedron from "../../public/hedron.svg";
+import hedronII from "../../public/icosahedron.svg";
+import left from "../../public/left.svg";
 import { motion } from "motion/react";
 
 const Secured = () => {

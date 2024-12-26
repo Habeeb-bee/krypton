@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import left from "../img/left.svg";
+import left from "../../../public/left.svg";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
-import square from "./img/square.svg";
-import success from "./img/success.svg";
-import people from "./img/people.svg";
+import square from "../../public/square.svg";
+import success from "../../public/success.svg";
+import people from "../../public/people.svg";
 
 
 const cardsData = [

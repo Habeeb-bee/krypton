@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import left from './img/left.svg';
-import helix from './img/helix.svg';
+import left from '../../public/left.svg';
+import helix from '../../public/helix.svg';
 
 const Community = () => {
   return (

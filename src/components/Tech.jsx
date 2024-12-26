@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import cylinder from "./img/cylinder.svg";
-import cylinder2 from "./img/cylinder_2.svg";
+import cylinder from "../../public/cylinder.svg";
+import cylinder2 from "../../public/cylinder_2.svg";
 
 const Tech = () => {
   return (

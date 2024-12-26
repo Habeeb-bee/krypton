@@ -1,5 +1,5 @@
-import hedron from "../img/icos.svg";
-import half from "../img/half.svg";
+import hedron from "../../../public/icos.svg";
+import half from "../../../public/half.svg";
 import { motion } from "motion/react";
 
 const Hero = () => {
