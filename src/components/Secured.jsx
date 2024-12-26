@@ -24,8 +24,8 @@ const Secured = () => {
     repeatType: "reverse", 
   }}
 />
-          <img className="absolute top-0 left-0 w-full h-auto" src="public/hedron.svg" alt="" />
-          <img className="relative w-full h-auto opacity-80" src="public/icosahedron.svg" alt="" />
+          <img className="absolute top-0 left-0 w-full h-auto" src="/hedron.svg" alt="" />
+          <img className="relative w-full h-auto opacity-80" src="/icosahedron.svg" alt="" />
         </div>
       </motion.div>
 
@@ -60,7 +60,7 @@ const Secured = () => {
             className="F20 flex flex-row text-white justify-center items-center gap-[10px] py-[20px] px-[10px] w-[10em] h-auto pointer cursor-pointer"
           >
             <div className="text">Learn more</div>
-            <img src="public/left.svg" alt="" />
+            <img src="/left.svg" alt="" />
           </motion.div>
         </div>
       </motion.div>

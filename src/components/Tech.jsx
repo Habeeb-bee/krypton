@@ -92,12 +92,12 @@ const Tech = () => {
           <div className="cylinders relative w-full h-full">
             <img
               className="absolute top-0 left-0 w-full h-full object-cover"
-              src="public/cylinder_2.svg"
+              src="/cylinder_2.svg"
               alt="Background Cylinder 2"
             />
             <img
               className="relative w-full h-full opacity-80 object-cover"
-              src="public/cylinder.svg"
+              src="/cylinder.svg"
               alt="Background Cylinder"
             />
           </div>

@@ -7,21 +7,21 @@ const cardsData = [
       title: "CONNECT",
       head: "Connect chains",
       description: "Grow the economy of your chain by connecting to Cronos Hub services using IBC protocol.",
-      image: "public/square.svg",
+      image: "/square.svg",
     },
     {
       id: 2,
       title: "INTEGRATE",
       head: "Provide services",
       description: "Get support to bring users to Cronos by providing services such as exchanges, wallets and more.",
-      image: "public/success.svg",
+      image: "/success.svg",
     },
     {
       id: 3,
       title: "VALIDATE",
       head: "Validator level",
       description: "Join the ranks of trusted decentralized validator operators in the network and help secure the interchain. ",
-      image: "public/people.svg",
+      image: "/people.svg",
     },
   ];
   
