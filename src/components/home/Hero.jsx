@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import half from "/assets/half.svg"
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 1.5, ease: "easeOut" }}
       className="absolute w-[40%] top-[30%] blur-[7px] right-0 tablet:w-[15%] tablet:top-[45%] laptop:w-[17%] laptop:top-[45%]"
-      src="/half.svg" 
+      src={half} 
       alt="Decorative graphic for design"
     />
     <motion.img
@@ -17,7 +18,7 @@ const Hero = () => {
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 1.5, ease: "easeOut", delay: 0.5 }}
       className="absolute w-[35%] top-[10%] blur-[7px] tablet:w-[25%] tablet:top-[10%] tablet:left-[5%] laptop:w-[15%] laptop:top-[8%] laptop:left-[21%]"
-      src="/icos.svg"
+      src="/assets/icos.svg"
       alt="Geometric decoration"
     />
   
