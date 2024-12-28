@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import half from "/assets/half.svg"
 
 const Hero = () => {
   return (
@@ -10,7 +9,7 @@ const Hero = () => {
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 1.5, ease: "easeOut" }}
       className="absolute w-[40%] top-[30%] blur-[7px] right-0 tablet:w-[15%] tablet:top-[45%] laptop:w-[17%] laptop:top-[45%]"
-      src={half} 
+      src="/assets/half.svg" 
       alt="Decorative graphic for design"
     />
     <motion.img
