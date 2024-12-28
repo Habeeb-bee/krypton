@@ -19,16 +19,16 @@ function App() {
 
   return (
     <div className='overflow-x-hidden '>
-   <Home></Home>
-   <Community></Community>
-   <Heart></Heart>
-   <Secured></Secured>
-   <Future></Future>
-   <Tech></Tech>
-   <Network></Network>
-   <World></World>
-   <Unsubscribe></Unsubscribe>
-   <Footer></Footer>
+   <Home/>
+   <Community/>
+   <Heart/>
+   <Secured/>
+   <Future/>
+   <Tech/>
+   <Network/>
+   <World/>
+   <Unsubscribe/>
+   <Footer/>
 
     </div>
   )
