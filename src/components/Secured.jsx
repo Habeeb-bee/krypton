@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-
 const Secured = () => {
   return (
     <div className="G8684 flex flex-col items-center gap-8 p-6 laptop:flex-row laptop:justify-between laptop:items-center w-full h-auto px-[4vw] relative mb-[7em]">
@@ -24,8 +23,8 @@ const Secured = () => {
     repeatType: "reverse", 
   }}
 />
-          <img className="absolute top-0 left-0 w-full h-auto" src="/hedron.svg" alt="" />
-          <img className="relative w-full h-auto opacity-80" src="/icosahedron.svg" alt="" />
+          <img className="absolute top-0 left-0 w-full h-auto" src="/assets/hedron.svg" alt="" />
+          <img className="relative w-full h-auto opacity-80" src="/assets/icos.svg" alt="" />
         </div>
       </motion.div>
 
@@ -60,7 +59,7 @@ const Secured = () => {
             className="F20 flex flex-row text-white justify-center items-center gap-[10px] py-[20px] px-[10px] w-[10em] h-auto pointer cursor-pointer"
           >
             <div className="text">Learn more</div>
-            <img src="/left.svg" alt="" />
+            <img src="/assets/left.svg" alt="" />
           </motion.div>
         </div>
       </motion.div>

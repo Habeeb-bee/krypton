@@ -65,8 +65,8 @@ const World = () => {
         {/* Decorative Image */}
         <div className="image-container absolute top-0 -left-[4vw] w-[50%] laptop:-left-[10vw] -z-10">
           <div className="cylinders relative h-auto object-cover">
-            <img className="absolute top-0 left-0 w-full h-auto" src="/sphere_2.svg" alt="Background Sphere 2" />
-            <img className="relative w-full h-auto opacity-80" src="/sphere.svg" alt="Background Sphere" />
+            <img className="absolute top-0 left-0 w-full h-auto" src="/assets/sphere_2.svg" alt="Background Sphere 2" />
+            <img className="relative w-full h-auto opacity-80" src="/assets/sphere.svg" alt="Background Sphere" />
           </div>
         </div>
       </div>
